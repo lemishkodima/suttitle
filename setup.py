@@ -32,6 +32,7 @@ async def start():
      logging.error( exc_info=True)
     finally:
      await bot.session.close()
+       # final
 
 
 if __name__ == '__main__':
